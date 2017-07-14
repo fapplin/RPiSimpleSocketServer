@@ -1,0 +1,24 @@
+grant {
+	// permissions for using GPIO pin 17 GPIO button
+        permission jdk.dio.gpio.GPIOPinPermission "*:*";
+	permission jdk.dio.DeviceMgmtPermission "*:*", "open";
+        // permissions for using GPIO pin 18 GPIO LED
+        permission jdk.dio.gpio.GPIOPinPermission ":18";
+        permission jdk.dio.gpio.GPIOPinPermission "0:18";
+        permission jdk.dio.DeviceMgmtPermission "GPIO18:18", "open";
+	// permissions for using GPIO pin 23 GPIO LED
+        permission jdk.dio.gpio.GPIOPinPermission ":23";
+        permission jdk.dio.gpio.GPIOPinPermission "0:23";
+        permission jdk.dio.DeviceMgmtPermission "GPIO23:23", "open";
+	// permissions for using GPIO pin 24 GPIO LED
+        permission jdk.dio.gpio.GPIOPinPermission ":24";
+        permission jdk.dio.gpio.GPIOPinPermission "0:24";
+        permission jdk.dio.DeviceMgmtPermission "GPIO24:24", "open";
+	// permissions for using GPIO pin 25 GPIO LED
+        permission jdk.dio.gpio.GPIOPinPermission ":25";
+        permission jdk.dio.gpio.GPIOPinPermission "0:25";
+        permission jdk.dio.DeviceMgmtPermission "GPIO25:25", "open";
+	// permissions for using UART
+        permission jdk.dio.DeviceMgmtPermission "*:*", "open";
+        permission jdk.dio.uart.UARTPermission "*:*";
+};

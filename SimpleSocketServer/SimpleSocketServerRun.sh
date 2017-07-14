@@ -1,0 +1,1 @@
+java -jar -Djava.library.path=/home/pi/NetBeansProjects/SimpleSocketServer/dist/lib/ -Djdk.dio.registry=/home/pi/NetBeansProjects/SimpleSocketServer/src/simplesocketserver/dio.properties -Djava.security.policy=/home/pi/NetBeansProjects/SimpleSocketServer/src/simplesocketserver/java.policy "/home/pi/NetBeansProjects/SimpleSocketServer/dist/SimpleSocketServer.jar"
